@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>RTBS TV</title>
+  <title>MediaTrial Debate</title>
   <meta name="viewport" content="width=device-width, initial-scale=0"><link rel="stylesheet" href="css/debate.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css'>
@@ -217,7 +217,12 @@ $(window).on('load',function(){
 .mbtlist .iline{line-height:2em; margin-top:3px;}           
 .mbtlist .icontent{line-height:1.5em; margin-top:5px;}           
 .mbtlist div span{margin:0 5px 0 0; display:inline-block;font-weight: normal;}           
-.mbtlist .mbttitle {important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal; font-size: 30px; color:#fff; word-spacing: -5px; text-shadow: -1px -1px 1px #c60203, 1px 1px 1px #fff; text-decoration:none;}           
+.mbtlist .mbttitle {important ;font-family: 'Tamil039'; font-weight: bold; font-style: normal; font-size: 30px; color:#bbb; word-spacing: -5px; text-shadow: -1px -1px 1px #c60203, 1px 1px 1px #fff; text-decoration:none;
+animation: huechange linear infinite 2s;}
+@keyframes huechange {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
 .mbtlist .mbttitle:hover, .mbtlist .itotal a:hover  {color:#333; text-decoration:none;}           
 .mbtlist .iedit a{text-decoration:none; color:#999; cursor:pointer}           
 .mbtlist .iedit:before, .mbtlist .iauthor:before, .mbtlist .itag:before, .mbtlist .icomments:before, .mbtlist .idate:before, .mbtlist .itotal span:before{font-family:fontAwesome; position:relative; padding-right:8px; color:#999;}           
