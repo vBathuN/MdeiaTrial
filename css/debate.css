@@ -175,6 +175,7 @@ body {
     margin-right: 0px;
     position: absolute;
     z-index: -11;
+    opacity: 0.9;
 }
 
 .rtcs {
@@ -299,6 +300,7 @@ body {
   text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
   margin-left: 120px;
   margin-top: 0px;
+  opacity: 0.9;
 }
 
 @keyframes vertical {
