@@ -225,10 +225,10 @@ body {
     width: 220px;
     height: 320px;
     margin-top: 20px;
-    padding-right: 710px;
+    padding-right: 0px;
     position: absolute;
     vertical-align: middle;
-    z-index: 2;
+    z-index: -11;
 }
 
 .rtcs-rstream {
