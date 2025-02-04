@@ -185,8 +185,8 @@ body {
 
 .rtcs-stream {
     width: 1280px;
-    height: 670px;
-    margin-bottom: 50px;
+    height: 720px;
+    margin-bottom: 0px;
     position: absolute;
     vertical-align: middle;
     z-index: -8;
