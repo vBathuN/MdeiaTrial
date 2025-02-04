@@ -330,7 +330,7 @@ body {
   z-index: 100;
 }
 .page-loader .txt {
-  color: #fff;
+  color: #c60203;
   text-align: center;
   top: 20%;
   position: relative;
@@ -339,4 +339,5 @@ body {
   font-size: 5em;
   font-weight: bold;
   line-height: 1.5;
+  text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 }
