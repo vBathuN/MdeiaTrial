@@ -175,8 +175,6 @@ body {
 }
 
 .rtcs-streambg {
-    background: #2a366a;
-    background-image: url('https://host.rtbs.in/media/rtcslive-bg.jpg');
     width: 1280px;
     height: 670px;
     margin-bottom: 50px;
