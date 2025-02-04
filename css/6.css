@@ -326,6 +326,7 @@ body {
   position: absolute;
   left: 0%;
   background: #cc8800;
+  background-image: url('https://host.rtbs.in/rtcs/3px-tile.png');
   z-index: 100;
 }
 .page-loader .txt {
